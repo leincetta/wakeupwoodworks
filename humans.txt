@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+Your title: Leandro Incetta
+Site: www.leandroincetta.com
+Twitter: leincetta
+Location: Denver, Colorado, USA		
+
+/* SITE */
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development               
