@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="http://photoswipe.s3.amazonaws.com/pswp/dist/default-skin/default-skin.css">
   </head>
   <body>
-    <header class="global-header">
+
+
+
+    <!-- <header class="global-header">
       <h1 class="global-header__logo"><a href="http://sassline.com">Wake Up</a></h1>
       <nav class="main-nav">
         <ul class="main-nav__list">
@@ -22,36 +25,63 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </header>
-    <div id="baseline">
-      <!-- Header -->
-      <div>
-        <div class="section typeset">
-          <div class="single">
-            <h1>Wake Up Woodworks</h1>
-            <p>Handcrafted, contemporary custom furniture.</p>
-            <p><a href="#" class="button">Learn more</a></p>
-          </div>
+    </header> -->
+
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Works</a></li>
+      <!-- <li><a href="#"><img src="assets/img/wakeup.svg" class="logo"></a></li> -->
+      <li><a href="#">Social</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div id="container">
+  <video autoplay loop muted>
+    <source src="assets/img/graving.mp4" type="video/mp4">
+    <!-- <source src="video.webm" type="video/webm"> -->
+  </video>
+  <div class="content">
+
+
+      <div class="section typeset">
+        <div class="single">
+          <h1>Wake Up Woodworks</h1>
+          <p>Handcrafted, contemporary custom furniture.</p>
+          <p><a href="#" class="button">Check Our Work</a></p>
         </div>
       </div>
+
+
+  </div>
+</div>
+
+
+    <div id="baseline">
       <!-- About -->
       <div class="section typeset">
         <div class="single">
           <h2>About</h2>
           <p>The beauty in a life well-lived. The joy of the chosen object. We create gorgeous woodcraft that will last long into the future and will become an anchor of good design in a wild and woolly world.</p>
+          <br>
         </div>
         <div class="column column--trio">
-          <img src="assets/img/cancel.svg" class="img-about">
+          <img src="assets/img/bookshelf.svg" class="img-about">
           <h6>Personalized Spaces</h6>
           <p>We love to collaborate with restaurants and businesses.</p>
         </div>
         <div class="column column--trio">
-          <img src="assets/img/cancel.svg" class="img-about">
+          <img src="assets/img/cupboard.svg" class="img-about">
           <h6>Custom Inquiries</h6>
           <p>Looking for a piece of furniture unlike any other?</p>
         </div>
         <div class="column column--trio">
-          <img src="assets/img/cancel.svg" class="img-about">
+          <img src="assets/img/wardrobe.svg" class="img-about">
           <h6>Handcrafted furniture</h6>
           <p>Joyful design for every part of your home.</p>
         </div>
@@ -88,30 +118,35 @@
 
 
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
-              <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
+              <img src="http://placehold.it/400x300&text=1" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description"><a href="#">Reclaimed Wood Drawer</a></figcaption>
           </figure>
+
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-              <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+              <img src="http://placehold.it/400x300&text=2" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 2</figcaption>
           </figure>
+
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-              <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+              <img src="http://placehold.it/400x300&text=3" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 3</figcaption>
           </figure>
+
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-              <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+              <img src="http://placehold.it/400x300&text=4" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 4</figcaption>
           </figure>
+
         </div>
         
         <!-- Root element of PhotoSwipe. Must have class pswp. -->
@@ -203,10 +238,17 @@
         </div>
       </div>
       <!-- Social -->
-      <div class="section typeset">
-        <div class="single">
-          <h2>Find us</h2>
-          <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Pinterest</a></p>
+      <div class="social">
+        <div class="section typeset">
+          <div class="single">
+            <h2>Social</h2>
+            <p>Praesent congue erat at massa. Etiam imperdiet imperdiet orci. Maecenas egestas arcu quis ligula mattis placerat. Sed aliquam ultrices mauris. Morbi ac felis.</p>
+            <p>
+              <a href="#"><img src="assets/img/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="assets/img/instagram.svg" alt="instagram"></a>
+              <a href="#"><img src="assets/img/pinterest.svg" alt="Pinterest"></a>
+            </p>
+          </div>
         </div>
       </div>
       <!-- Contact -->
@@ -236,13 +278,13 @@
             </p>
           </form>
         </div>
-        <div class="single">
+        <!-- <div class="single">
           <p>Praesent congue erat at massa. Etiam imperdiet imperdiet orci. Maecenas egestas arcu quis ligula mattis placerat. Sed aliquam ultrices mauris. Morbi ac felis.</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <footer class="global-footer">
-      <p>2330 S. Kalamath St. Unit A, Denver, CO 80223 USA</p>
+      <p>Wake Up Woodworks<br>2330 S. Kalamath St. Unit A, Denver, CO 80223 USA</p>
     </footer>
     <script src="http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe.min.js"></script>
     <script src="http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe-ui-default.min.js"></script>

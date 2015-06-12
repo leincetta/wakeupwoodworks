@@ -714,6 +714,32 @@ img {
       max-width: 100%;
       width: auto; } }
 
+header {
+  text-align: center;
+  padding-top: 0.6rem;
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #FFFFFF url("../img/wakeup.svg") no-repeat center center;
+  width: 100%;
+  border-bottom: 1px solid #BDC8CC; }
+  header img {
+    width: auto; }
+  header ul li {
+    display: inline;
+    padding: 0 0.75rem; }
+    header ul li:nth-child(2) {
+      margin-right: 50px; }
+    header ul li:nth-child(3) {
+      margin-left: 50px; }
+    @media screen and (min-width: 40em) {
+      header ul li {
+        padding: 0 1rem; } }
+
+.logo {
+  height: 2rem; }
+
 .single,
 .column--trio {
   text-align: center; }
@@ -723,9 +749,42 @@ p.submit {
 
 .img-about {
   height: 8rem; }
+  .img-about img {
+    color: red; }
 
 figcaption {
   display: none; }
+
+.global-footer {
+  background: #F5F4F2; }
+
+.social {
+  background: url("../img/partners.jpg") no-repeat fixed;
+  background-size: cover; }
+
+video {
+  width: 100%;
+  display: none; }
+  @media screen and (min-width: 40em) {
+    video {
+      display: block; } }
+
+#container {
+  position: relative;
+  overflow: hidden;
+  height: 25rem;
+  background-color: cyan;
+  margin-top: 3rem; }
+
+#container .content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: #FFFFFF;
+  margin-left: -300px;
+  width: 600px; }
+  #container .content h1 {
+    color: #FFFFFF; }
 
 .global-header {
   background-color: #FCFCFC;
@@ -873,13 +932,5 @@ figcaption {
   @media screen and (min-width: 40em) {
     .js .nav-toggle {
       display: none; } }
-
-#baseline.show-grid {
-  background-image: -webkit-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: -moz-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: -o-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: linear-gradient(to bottom, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-repeat: repeat-y;
-  background-size: 100% 1rem; }
 
 /*# sourceMappingURL=style.css.map */

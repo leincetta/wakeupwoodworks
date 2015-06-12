@@ -32,8 +32,44 @@ img {
   }
 }
 
+header {
+  text-align: center;
+  padding-top: 0.6rem;
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: $white url('../img/wakeup.svg') no-repeat center center;
+  width: 100%;
+  border-bottom: 1px solid $captionColour;
+  & img {
+    width: auto;
+  }
+  & ul li {
+    display: inline;
+    padding: 0 0.75rem;
+
+    &:nth-child(2) {
+      margin-right: 50px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 50px;
+    }
+
+    @include breakpoint(break-1) {
+      padding: 0 1rem;
+    }
+
+  }
+}
+
 
 // Custom
+
+.logo {
+  height: 2rem;
+}
 
 .single,
 .column--trio {
@@ -46,8 +82,50 @@ p.submit {
 
 .img-about {
   height: 8rem;
+  & img {
+    color: red;
+  }
 }
 
 figcaption {
   display: none;
+}
+
+.global-footer {
+  background: $codeBackgroundColour;
+}
+
+.social {
+  background: url('../img/partners.jpg') no-repeat fixed;
+  background-size: cover;
+}
+
+// Video
+
+video {
+  width: 100%;
+  display: none;
+  @include breakpoint(break-1) {
+    display: block;
+  }
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+  height: 25rem;
+  background-color: cyan; // Video fallback
+  margin-top: 3rem;
+}
+
+#container .content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: $white;
+  margin-left: -300px;
+  width: 600px;
+  & h1 {
+    color: $white;
+  }
 }
