@@ -42,7 +42,7 @@ header {
   height: 4rem;
   position: fixed;
   top: 0;
-  z-index: 99;
+  z-index: 1;
   background: $white url('../img/wakeup.svg') no-repeat center center;
   width: 100%;
   border-bottom: 1px solid $bodyColour;
@@ -68,6 +68,10 @@ header {
 
 
 // Custom
+
+div#about {
+  padding-bottom: 0;
+}
 
 .logo {
   height: 2rem;

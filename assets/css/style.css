@@ -722,7 +722,7 @@ header {
   height: 4rem;
   position: fixed;
   top: 0;
-  z-index: 99;
+  z-index: 1;
   background: #FFFFFF url("../img/wakeup.svg") no-repeat center center;
   width: 100%;
   border-bottom: 1px solid #a4a4a4; }
@@ -737,6 +737,9 @@ header {
     @media screen and (min-width: 40em) {
       header ul li {
         padding: 0 1rem; } }
+
+div#about {
+  padding-bottom: 0; }
 
 .logo {
   height: 2rem; }
