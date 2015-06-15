@@ -86,8 +86,8 @@ $monospacetype: (
 // Text colours. British English.
 $headingColour: #2E2E2E;
 $bodyColour: #494949;
-$linkColour: #0E58F5;
-$hoverColour: #0B348B;
+$linkColour: #ADA074;
+$hoverColour: darken($linkColour, 20%);
 $captionColour: #BDC8CC;
 $white: #FFFFFF;
 

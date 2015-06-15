@@ -34,14 +34,14 @@ img {
 
 header {
   text-align: center;
-  padding-top: 0.6rem;
-  height: 3rem;
+  padding-top: 1rem;
+  height: 4rem;
   position: fixed;
   top: 0;
   z-index: 99;
   background: $white url('../img/wakeup.svg') no-repeat center center;
   width: 100%;
-  border-bottom: 1px solid $captionColour;
+  border-bottom: 1px solid $codeBackgroundColour;
   & img {
     width: auto;
   }
@@ -82,13 +82,6 @@ p.submit {
 
 .img-about {
   height: 8rem;
-  & img {
-    color: red;
-  }
-}
-
-figcaption {
-  display: none;
 }
 
 .global-footer {
@@ -96,7 +89,7 @@ figcaption {
 }
 
 .social {
-  background: url('../img/partners.jpg') no-repeat fixed;
+  background: url('../img/workshop.jpg') no-repeat center top;
   background-size: cover;
 }
 
@@ -120,7 +113,7 @@ video {
 
 #container .content {
   position: absolute;
-  top: 0;
+  top: 2rem;
   left: 50%;
   color: $white;
   margin-left: -300px;
@@ -129,3 +122,22 @@ video {
     color: $white;
   }
 }
+
+// Portfolio
+
+.my-gallery {
+  margin: 0 auto;
+  text-align: center;
+  & figure {
+    display: inline-block;
+    margin: 0rem 0.4rem 1rem 0.4rem;
+  }
+}
+
+.my-gallery figure a img {
+  height: 15rem;
+}
+
+// figcaption {
+//   display: none;
+// }

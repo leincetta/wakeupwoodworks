@@ -272,7 +272,8 @@ a {
     cursor: pointer;
     text-shadow: none;
     &:hover {
-      background: $codeBackgroundColour;
+      background: $linkColour;
+      color: $white;
     }
   }
 

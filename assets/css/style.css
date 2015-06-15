@@ -79,26 +79,26 @@ a {
   -ms-transition: color .1s, background-color .1s;
   -o-transition: color .1s, background-color .1s;
   transition: color .1s, background-color .1s;
-  color: #0E58F5;
+  color: #ADA074;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #0B348B;
+    color: #766b45;
     text-decoration: none; }
 
 .typeset p a, .typeset li a {
-  background-image: -webkit-linear-gradient(top, transparent 50%, #709cf9 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, #709cf9 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, #709cf9 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #709cf9 50%);
+  background-image: -webkit-linear-gradient(top, transparent 50%, #d3ccb4 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #d3ccb4 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #d3ccb4 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #d3ccb4 50%);
   background-position: 0 93%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
   text-shadow: 0.1rem 0 #FCFCFC, 0.15rem 0 #FCFCFC, -0.1rem 0 #FCFCFC, -0.15rem 0 #FCFCFC; }
   .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus {
-    background-image: -webkit-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: -moz-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: -o-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: linear-gradient(to bottom, transparent 50%, #1257ea 50%); }
+    background-image: -webkit-linear-gradient(top, transparent 50%, #ada074 50%);
+    background-image: -moz-linear-gradient(top, transparent 50%, #ada074 50%);
+    background-image: -o-linear-gradient(top, transparent 50%, #ada074 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, #ada074 50%); }
 .typeset p {
   -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
   -moz-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
@@ -363,7 +363,7 @@ a {
 .typeset .delta + .caption, .typeset .epsilon + .caption, .typeset .zeta + .caption {
   margin-top: 0rem; }
 .typeset blockquote p {
-  border-left: 0.15rem solid #0E58F5;
+  border-left: 0.15rem solid #ADA074;
   font-style: italic;
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
@@ -446,7 +446,8 @@ a {
   text-shadow: none; }
   .typeset input[type=submit]:hover,
   .typeset .button:hover {
-    background: #F5F4F2; }
+    background: #ADA074;
+    color: #FFFFFF; }
 .typeset input[type=submit] {
   height: 3rem;
   padding: 0 2rem;
@@ -716,14 +717,14 @@ img {
 
 header {
   text-align: center;
-  padding-top: 0.6rem;
-  height: 3rem;
+  padding-top: 1rem;
+  height: 4rem;
   position: fixed;
   top: 0;
   z-index: 99;
   background: #FFFFFF url("../img/wakeup.svg") no-repeat center center;
   width: 100%;
-  border-bottom: 1px solid #BDC8CC; }
+  border-bottom: 1px solid #F5F4F2; }
   header img {
     width: auto; }
   header ul li {
@@ -749,17 +750,12 @@ p.submit {
 
 .img-about {
   height: 8rem; }
-  .img-about img {
-    color: red; }
-
-figcaption {
-  display: none; }
 
 .global-footer {
   background: #F5F4F2; }
 
 .social {
-  background: url("../img/partners.jpg") no-repeat fixed;
+  background: url("../img/workshop.jpg") no-repeat center top;
   background-size: cover; }
 
 video {
@@ -778,13 +774,23 @@ video {
 
 #container .content {
   position: absolute;
-  top: 0;
+  top: 2rem;
   left: 50%;
   color: #FFFFFF;
   margin-left: -300px;
   width: 600px; }
   #container .content h1 {
     color: #FFFFFF; }
+
+.my-gallery {
+  margin: 0 auto;
+  text-align: center; }
+  .my-gallery figure {
+    display: inline-block;
+    margin: 0rem 0.4rem 1rem 0.4rem; }
+
+.my-gallery figure a img {
+  height: 15rem; }
 
 .global-header {
   background-color: #FCFCFC;
@@ -874,12 +880,12 @@ video {
     -ms-user-select: none;
     user-select: none;
     border-bottom: 0.1rem solid #d9d9d9;
-    color: #0E58F5;
+    color: #ADA074;
     cursor: pointer;
     display: block;
     padding: 10px 3%; }
     .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
-      background-color: #0E58F5;
+      background-color: #ADA074;
       color: #FFFFFF; }
   @media screen and (min-width: 40em) {
     .main-nav li {
@@ -897,7 +903,7 @@ video {
         padding: 0; }
         .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
           background-color: transparent;
-          color: #0E58F5; } }
+          color: #ADA074; } }
   @media screen and (min-width: 50em) {
     .main-nav li {
       font-size: 0.8rem; } }
