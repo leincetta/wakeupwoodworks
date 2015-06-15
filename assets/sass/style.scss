@@ -9,7 +9,7 @@
 @import "base/typography";
 @import "base/layouts";
 
-// Import all SCSS modules with Sass globbing.
+// Modules
 @import "modules/_footer.scss";
 @import "modules/_globals.scss";
 @import "modules/_header.scss";
@@ -24,5 +24,3 @@
 //   background-repeat: repeat-y;
 //   background-size: 100% 1rem;
 // }
-
-// #baseline.show-grid

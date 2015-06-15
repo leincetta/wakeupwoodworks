@@ -40,23 +40,23 @@ a {
 .typeset {
 
   // Nice underlines for text links.
-  p a, li a {
-    background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
-    background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
-    background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
-    background-position: 0 93%;
-    background-repeat: repeat-x;
-    background-size: 100% 0.15rem;
-    text-shadow: 0.1rem 0 $backgroundColour,0.15rem 0 $backgroundColour,-0.1rem 0 $backgroundColour,-0.15rem 0 $backgroundColour;
+  // p a, li a {
+  //   background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
+  //   background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
+  //   background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
+  //   background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
+  //   background-position: 0 93%;
+  //   background-repeat: repeat-x;
+  //   background-size: 100% 0.15rem;
+  //   text-shadow: 0.1rem 0 $backgroundColour,0.15rem 0 $backgroundColour,-0.1rem 0 $backgroundColour,-0.15rem 0 $backgroundColour;
 
-    &:hover, &:active, &:focus {
-      background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
-      background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
-      background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
-      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
-    }
-  }
+  //   &:hover, &:active, &:focus {
+  //     background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+  //     background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+  //     background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+  //     background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+  //   }
+  // }
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
@@ -271,8 +271,10 @@ a {
     color: $bodyColour;
     cursor: pointer;
     text-shadow: none;
+    @include ease;
     &:hover {
       background: $linkColour;
+      border: 1px solid $linkColour;
       color: $white;
     }
   }

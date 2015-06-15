@@ -1,6 +1,10 @@
 // Global demo styles
 // ---------------------------------------
 
+* {
+  @include ease;
+}
+
 body {
   background-color: $backgroundColour;
   color: $bodyColour;
@@ -41,13 +45,11 @@ header {
   z-index: 99;
   background: $white url('../img/wakeup.svg') no-repeat center center;
   width: 100%;
-  border-bottom: 1px solid $codeBackgroundColour;
-  & img {
-    width: auto;
-  }
+  border-bottom: 1px solid $bodyColour;
   & ul li {
     display: inline;
     padding: 0 0.75rem;
+    font-family: unquote(map-get($headingtype, font-family));
 
     &:nth-child(2) {
       margin-right: 50px;
@@ -84,19 +86,29 @@ p.submit {
   height: 8rem;
 }
 
-.global-footer {
-  background: $codeBackgroundColour;
-}
-
 .social {
   background: url('../img/workshop.jpg') no-repeat center top;
+  @include grayscale;
   background-size: cover;
+  color: $white;
+  height: 25rem;
+  & ul li {
+    display: inline;
+    padding: 0 1rem;
+    & img {
+      height: 3rem;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
 }
 
 // Video
 
 video {
   width: 100%;
+  @include grayscale;
   display: none;
   @include breakpoint(break-1) {
     display: block;
@@ -107,8 +119,10 @@ video {
   position: relative;
   overflow: hidden;
   height: 25rem;
-  background-color: cyan; // Video fallback
-  margin-top: 3rem;
+  margin-top: 2rem;
+  // Video fallback
+    background: url(../img/graving.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 #container .content {
@@ -120,6 +134,13 @@ video {
   width: 600px;
   & h1 {
     color: $white;
+  }
+  & .button {
+    color: $white;
+    border: 1px solid $white;
+    &:hover {
+      border: 1px solid $linkColour;
+    }
   }
 }
 
@@ -136,8 +157,16 @@ video {
 
 .my-gallery figure a img {
   height: 15rem;
+  @include grayscale;
+  cursor: -webkit-zoom-in;
+  &:hover {
+    filter: none;
+    -webkit-filter: none;
+    -o-filter: none;
+    -moz-filter: none;
+  }
 }
 
-// figcaption {
-//   display: none;
-// }
+figcaption {
+  display: none;
+}

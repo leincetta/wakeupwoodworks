@@ -85,20 +85,6 @@ a {
     color: #766b45;
     text-decoration: none; }
 
-.typeset p a, .typeset li a {
-  background-image: -webkit-linear-gradient(top, transparent 50%, #d3ccb4 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, #d3ccb4 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, #d3ccb4 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #d3ccb4 50%);
-  background-position: 0 93%;
-  background-repeat: repeat-x;
-  background-size: 100% 0.15rem;
-  text-shadow: 0.1rem 0 #FCFCFC, 0.15rem 0 #FCFCFC, -0.1rem 0 #FCFCFC, -0.15rem 0 #FCFCFC; }
-  .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus {
-    background-image: -webkit-linear-gradient(top, transparent 50%, #ada074 50%);
-    background-image: -moz-linear-gradient(top, transparent 50%, #ada074 50%);
-    background-image: -o-linear-gradient(top, transparent 50%, #ada074 50%);
-    background-image: linear-gradient(to bottom, transparent 50%, #ada074 50%); }
 .typeset p {
   -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
   -moz-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
@@ -130,7 +116,7 @@ a {
   -ms-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-  color: #2E2E2E;
+  color: #444;
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700; }
@@ -399,7 +385,7 @@ a {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 .typeset code, .typeset pre {
-  background-color: #F5F4F2;
+  background-color: #444;
   font-family: Menlo, monospace; }
 .typeset pre {
   display: block;
@@ -429,7 +415,7 @@ a {
   height: 2rem;
   margin-bottom: 2rem;
   padding: 0.5rem;
-  border: 1px solid #494949;
+  border: 1px solid #a4a4a4;
   background: transparent;
   width: 100%; }
 .typeset textarea {
@@ -438,15 +424,20 @@ a {
   padding-top: 0; }
 .typeset input[type=submit],
 .typeset .button {
-  border: 1px solid #494949;
+  border: 1px solid #a4a4a4;
   background: transparent;
   margin-bottom: 2rem;
-  color: #494949;
+  color: #a4a4a4;
   cursor: pointer;
-  text-shadow: none; }
+  text-shadow: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
   .typeset input[type=submit]:hover,
   .typeset .button:hover {
     background: #ADA074;
+    border: 1px solid #ADA074;
     color: #FFFFFF; }
 .typeset input[type=submit] {
   height: 3rem;
@@ -668,31 +659,41 @@ a {
     max-width: 36.46154%;
     left: 63.53846%; } }
 
-.global-footer p {
+.global-footer {
+  background: #444;
   color: #BDC8CC;
-  font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  padding: 1rem 0;
-  margin: 0;
-  text-align: center;
-  font-size: 1.19167rem; }
-  @media screen and (min-width: 40em) {
-    .global-footer p {
-      font-size: 1.09286rem; } }
-  @media screen and (min-width: 50em) {
-    .global-footer p {
-      font-size: 1.08667rem; } }
-  @media screen and (min-width: 64em) {
-    .global-footer p {
-      font-size: 0.99412rem; } }
-  @media screen and (min-width: 100em) {
-    .global-footer p {
-      font-size: 0.92632rem; } }
+  padding: 3rem 0 4rem 0;
+  text-align: center; }
+  .global-footer img {
+    height: 3rem; }
+  .global-footer p {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.19167rem; }
+    @media screen and (min-width: 40em) {
+      .global-footer p {
+        font-size: 1.09286rem; } }
+    @media screen and (min-width: 50em) {
+      .global-footer p {
+        font-size: 1.08667rem; } }
+    @media screen and (min-width: 64em) {
+      .global-footer p {
+        font-size: 0.99412rem; } }
+    @media screen and (min-width: 100em) {
+      .global-footer p {
+        font-size: 0.92632rem; } }
+
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 body {
   background-color: #FCFCFC;
-  color: #494949;
+  color: #a4a4a4;
   overflow-x: hidden; }
 
 .section {
@@ -724,12 +725,11 @@ header {
   z-index: 99;
   background: #FFFFFF url("../img/wakeup.svg") no-repeat center center;
   width: 100%;
-  border-bottom: 1px solid #F5F4F2; }
-  header img {
-    width: auto; }
+  border-bottom: 1px solid #a4a4a4; }
   header ul li {
     display: inline;
-    padding: 0 0.75rem; }
+    padding: 0 0.75rem;
+    font-family: Helvetica, sans-serif; }
     header ul li:nth-child(2) {
       margin-right: 50px; }
     header ul li:nth-child(3) {
@@ -751,15 +751,33 @@ p.submit {
 .img-about {
   height: 8rem; }
 
-.global-footer {
-  background: #F5F4F2; }
-
 .social {
   background: url("../img/workshop.jpg") no-repeat center top;
-  background-size: cover; }
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  background-size: cover;
+  background-size: cover;
+  color: #FFFFFF;
+  height: 25rem; }
+  .social ul li {
+    display: inline;
+    padding: 0 1rem; }
+    .social ul li img {
+      height: 3rem; }
+      .social ul li img:hover {
+        opacity: 0.5; }
 
 video {
   width: 100%;
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  background-size: cover;
   display: none; }
   @media screen and (min-width: 40em) {
     video {
@@ -769,8 +787,9 @@ video {
   position: relative;
   overflow: hidden;
   height: 25rem;
-  background-color: cyan;
-  margin-top: 3rem; }
+  margin-top: 2rem;
+  background: url(../img/graving.jpg) no-repeat top center;
+  background-size: cover; }
 
 #container .content {
   position: absolute;
@@ -781,6 +800,11 @@ video {
   width: 600px; }
   #container .content h1 {
     color: #FFFFFF; }
+  #container .content .button {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF; }
+    #container .content .button:hover {
+      border: 1px solid #ADA074; }
 
 .my-gallery {
   margin: 0 auto;
@@ -790,7 +814,22 @@ video {
     margin: 0rem 0.4rem 1rem 0.4rem; }
 
 .my-gallery figure a img {
-  height: 15rem; }
+  height: 15rem;
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  background-size: cover;
+  cursor: -webkit-zoom-in; }
+  .my-gallery figure a img:hover {
+    filter: none;
+    -webkit-filter: none;
+    -o-filter: none;
+    -moz-filter: none; }
+
+figcaption {
+  display: none; }
 
 .global-header {
   background-color: #FCFCFC;
