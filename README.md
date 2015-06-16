@@ -1,16 +1,11 @@
 # Wake Up Woodworks
 
-### Compiling
-
-Using Sass and [Sass-Globbing](https://github.com/chriseppstein/sass-globbing):
-<br>
-`sass -r sass-globbing --watch assets/sass:assets/css`
+Compiled with [Mixture](http://mixture.io/)
 
 ### Resources
 
 * [PhotoSwipe](http://photoswipe.com)
 * [Sassline](http://sassline.com)
-* Viljami Salminen’s [responsive-nav.js](https://github.com/viljamis/responsive-nav.js)
 * [Usign videos as backgrounds](http://www.inserthtml.com/2013/09/quick-tips-background-videos/)
 * [Smooth Scroll](https://github.com/Yappli/smooth-scroll/blob/main/smooth-scroll.min.js)
 
@@ -24,3 +19,7 @@ Using Sass and [Sass-Globbing](https://github.com/chriseppstein/sass-globbing):
 
 Jakob Nielsen. [Top 10 Mistakes in Web Design](http://www.nngroup.com/articles/top-10-mistakes-web-design/)<br>
 >"The worst example of not answering users' questions is to avoid listing the price of products and services."
+
+#### Notes
+
+* First deploy online: 2015/06/15
