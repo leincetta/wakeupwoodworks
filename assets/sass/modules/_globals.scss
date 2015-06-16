@@ -46,23 +46,25 @@ header {
   background: $white url('../img/wakeup.svg') no-repeat center center;
   width: 100%;
   border-bottom: 1px solid $bodyColour;
+
+  .nav {
+    width: 50%;
+    float: left;
+      &.left {
+        text-align:right;
+        padding-right: 50px;
+        & ul li:first-child { margin-right:20px; }
+      }
+      &.right {
+        text-align:left;
+        padding-left: 50px;
+        & ul li:first-child { margin-right:20px; }
+      }
+  }
+
   & ul li {
     display: inline;
-    padding: 0 0.75rem;
     font-family: unquote(map-get($headingtype, font-family));
-
-    &:nth-child(2) {
-      margin-right: 50px;
-    }
-
-    &:nth-child(3) {
-      margin-left: 50px;
-    }
-
-    @include breakpoint(break-1) {
-      padding: 0 1rem;
-    }
-
   }
 }
 

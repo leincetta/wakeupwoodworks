@@ -1401,17 +1401,22 @@ header {
   background: #FFFFFF url("../img/wakeup.svg") no-repeat center center;
   width: 100%;
   border-bottom: 1px solid #a4a4a4; }
+  header .nav {
+    width: 50%;
+    float: left; }
+    header .nav.left {
+      text-align: right;
+      padding-right: 50px; }
+      header .nav.left ul li:first-child {
+        margin-right: 20px; }
+    header .nav.right {
+      text-align: left;
+      padding-left: 50px; }
+      header .nav.right ul li:first-child {
+        margin-right: 20px; }
   header ul li {
     display: inline;
-    padding: 0 0.75rem;
     font-family: Helvetica, sans-serif; }
-    header ul li:nth-child(2) {
-      margin-right: 50px; }
-    header ul li:nth-child(3) {
-      margin-left: 50px; }
-    @media screen and (min-width: 40em) {
-      header ul li {
-        padding: 0 1rem; } }
 
 div#about {
   padding-bottom: 0; }
