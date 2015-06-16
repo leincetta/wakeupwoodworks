@@ -51,14 +51,22 @@ header {
     width: 50%;
     float: left;
       &.left {
-        text-align:right;
-        padding-right: 60px;
-        & ul li:first-child { margin-right:20px; }
+        text-align:center;
+        padding-right: 40px;
+        @include breakpoint(break-1) { padding-right:60px; text-align:right; }
+        & ul li:first-child { 
+          margin-right:10px;
+          @include breakpoint(break-1) { margin-right:20px; }
+        }
       }
       &.right {
         text-align:left;
-        padding-left: 60px;
-        & ul li:first-child { margin-right:20px; }
+        padding-left: 40px;
+        @include breakpoint(break-1) { padding-left:60px; }
+        & ul li:first-child { 
+          margin-right:10px;
+          @include breakpoint(break-1) { margin-right:20px; }
+        }
       }
   }
 
@@ -137,8 +145,8 @@ video {
   top: 2rem;
   left: 50%;
   color: $white;
-  margin-left: -300px;
-  width: 600px;
+  margin-left: -50%;
+  width: 100%;
   & h1 {
     color: $white;
   }
@@ -163,7 +171,8 @@ video {
 }
 
 .my-gallery figure a img {
-  height: 15rem;
+  height: 18rem;
+  @include breakpoint(break-1) { height: 15rem; }
   @include grayscale;
   cursor: -webkit-zoom-in;
   &:hover {
