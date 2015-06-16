@@ -1442,9 +1442,10 @@ p.submit {
   height: 25rem; }
   .social ul li {
     display: inline;
-    padding: 0 1rem; }
+    padding: 0 10px; }
     .social ul li img {
-      height: 3rem; }
+      height: 3rem;
+      width: auto; }
       .social ul li img:hover {
         opacity: 0.5; }
 

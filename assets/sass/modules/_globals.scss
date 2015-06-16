@@ -98,9 +98,10 @@ p.submit {
   height: 25rem;
   & ul li {
     display: inline;
-    padding: 0 1rem;
+    padding: 0 10px;
     & img {
       height: 3rem;
+      width: auto;
       &:hover {
         opacity: 0.5;
       }
