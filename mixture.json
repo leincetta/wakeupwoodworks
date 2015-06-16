@@ -13,10 +13,11 @@
   ],
   "preprocessorScriptOutput": "assets/js",
   "preprocessorStyleOutput": "assets/css",
-  "projectDescription": "Set text on the web to a baseline grid with Sass & rems using a responsive modular-scale.",
-  "projectName": "Sassline",
+  "projectDescription": "Joyful design for every part of your home",
+  "projectName": "Wake Up Woodworks",
   "publishedId": null,
   "optimiseSVG": true,
+  "optimiseImages": true,
   "sass": {
     "cache": false,
     "debugInfo": false,
