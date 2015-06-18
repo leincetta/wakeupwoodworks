@@ -1,5 +1,6 @@
 /* CSS compiled from SCSS */
 /* --------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -117,159 +118,160 @@ a {
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: #444;
-  font-family: Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 400;
+  text-transform: uppercase; }
 .typeset h1, .typeset .alpha {
   line-height: 3rem;
   font-size: 2.33333rem;
-  margin-bottom: 0.25832rem;
-  padding-top: 0.74168rem; }
+  margin-bottom: 0.43332rem;
+  padding-top: 0.56668rem; }
   @media screen and (min-width: 40em) {
     .typeset h1, .typeset .alpha {
       font-size: 2.14286rem;
-      margin-bottom: 0.19642rem;
-      padding-top: 0.80358rem; } }
+      margin-bottom: 0.35713rem;
+      padding-top: 0.64287rem; } }
   @media screen and (min-width: 50em) {
     .typeset h1, .typeset .alpha {
       font-size: 2.13333rem;
-      margin-bottom: 0.19332rem;
-      padding-top: 0.80668rem; } }
+      margin-bottom: 0.35332rem;
+      padding-top: 0.64668rem; } }
   @media screen and (min-width: 64em) {
     .typeset h1, .typeset .alpha {
       font-size: 2.35294rem;
-      margin-bottom: 0.2647rem;
-      padding-top: 0.7353rem; } }
+      margin-bottom: 0.44117rem;
+      padding-top: 0.55883rem; } }
   @media screen and (min-width: 100em) {
     .typeset h1, .typeset .alpha {
       font-size: 2.63158rem;
-      margin-bottom: 0.35525rem;
-      padding-top: 0.64475rem; } }
+      margin-bottom: 0.55262rem;
+      padding-top: 0.44738rem; } }
 .typeset h2, .typeset .beta {
   line-height: 3rem;
   font-size: 2.08333rem;
-  margin-bottom: 0.17707rem;
-  padding-top: 0.82293rem; }
+  margin-bottom: 0.33332rem;
+  padding-top: 0.66668rem; }
   @media screen and (min-width: 40em) {
     .typeset h2, .typeset .beta {
       font-size: 1.9rem;
-      margin-bottom: 0.11749rem;
-      padding-top: 0.88251rem; } }
+      margin-bottom: 0.25999rem;
+      padding-top: 0.74001rem; } }
   @media screen and (min-width: 50em) {
     .typeset h2, .typeset .beta {
       font-size: 1.87333rem;
-      margin-bottom: 0.10882rem;
-      padding-top: 0.89118rem; } }
+      margin-bottom: 0.24932rem;
+      padding-top: 0.75068rem; } }
   @media screen and (min-width: 64em) {
     .typeset h2, .typeset .beta {
       font-size: 2.08824rem;
-      margin-bottom: 0.17867rem;
-      padding-top: 0.82133rem; } }
+      margin-bottom: 0.33528rem;
+      padding-top: 0.66472rem; } }
   @media screen and (min-width: 100em) {
     .typeset h2, .typeset .beta {
       font-size: 2.31053rem;
-      margin-bottom: 0.25091rem;
-      padding-top: 0.74909rem; } }
+      margin-bottom: 0.4242rem;
+      padding-top: 0.5758rem; } }
 .typeset h3, .typeset .gamma {
   line-height: 3rem;
   font-size: 1.86667rem;
-  margin-bottom: 0.10666rem;
-  padding-top: 0.89334rem; }
+  margin-bottom: 0.24666rem;
+  padding-top: 0.75334rem; }
   @media screen and (min-width: 40em) {
     .typeset h3, .typeset .gamma {
       font-size: 1.71429rem;
-      margin-bottom: 0.05713rem;
-      padding-top: 0.94287rem; } }
+      margin-bottom: 0.1857rem;
+      padding-top: 0.8143rem; } }
   @media screen and (min-width: 50em) {
     .typeset h3, .typeset .gamma {
       font-size: 1.70667rem;
-      margin-bottom: 0.05466rem;
-      padding-top: 0.94534rem; } }
+      margin-bottom: 0.18266rem;
+      padding-top: 0.81734rem; } }
   @media screen and (min-width: 64em) {
     .typeset h3, .typeset .gamma {
       font-size: 1.76471rem;
-      margin-bottom: 0.07352rem;
-      padding-top: 0.92648rem; } }
+      margin-bottom: 0.20587rem;
+      padding-top: 0.79413rem; } }
   @media screen and (min-width: 100em) {
     .typeset h3, .typeset .gamma {
       font-size: 1.85789rem;
-      margin-bottom: 0.10381rem;
-      padding-top: 0.89619rem; } }
+      margin-bottom: 0.24315rem;
+      padding-top: 0.75685rem; } }
 .typeset h4, .typeset .delta {
   line-height: 2rem;
   font-size: 1.66667rem;
-  margin-bottom: -0.45834rem;
-  padding-top: 0.45834rem; }
+  margin-bottom: -0.33334rem;
+  padding-top: 0.33334rem; }
   @media screen and (min-width: 40em) {
     .typeset h4, .typeset .delta {
       font-size: 1.52143rem;
-      margin-bottom: -0.50555rem;
-      padding-top: 0.50555rem; } }
+      margin-bottom: -0.39144rem;
+      padding-top: 0.39144rem; } }
   @media screen and (min-width: 50em) {
     .typeset h4, .typeset .delta {
       font-size: 1.5rem;
-      margin-bottom: -0.51251rem;
-      padding-top: 0.51251rem; } }
+      margin-bottom: -0.40001rem;
+      padding-top: 0.40001rem; } }
   @media screen and (min-width: 64em) {
     .typeset h4, .typeset .delta {
       font-size: 1.57059rem;
-      margin-bottom: -0.48957rem;
-      padding-top: 0.48957rem; } }
+      margin-bottom: -0.37177rem;
+      padding-top: 0.37177rem; } }
   @media screen and (min-width: 100em) {
     .typeset h4, .typeset .delta {
       font-size: 1.63684rem;
-      margin-bottom: -0.46804rem;
-      padding-top: 0.46804rem; } }
+      margin-bottom: -0.34527rem;
+      padding-top: 0.34527rem; } }
 .typeset h5, .typeset .epsilon {
   line-height: 2rem;
   font-size: 1.49167rem;
-  margin-bottom: -0.51522rem;
-  padding-top: 0.51522rem; }
+  margin-bottom: -0.40334rem;
+  padding-top: 0.40334rem; }
   @media screen and (min-width: 40em) {
     .typeset h5, .typeset .epsilon {
       font-size: 1.37143rem;
-      margin-bottom: -0.5543rem;
-      padding-top: 0.5543rem; } }
+      margin-bottom: -0.45144rem;
+      padding-top: 0.45144rem; } }
   @media screen and (min-width: 50em) {
     .typeset h5, .typeset .epsilon {
       font-size: 1.36667rem;
-      margin-bottom: -0.55584rem;
-      padding-top: 0.55584rem; } }
+      margin-bottom: -0.45334rem;
+      padding-top: 0.45334rem; } }
   @media screen and (min-width: 64em) {
     .typeset h5, .typeset .epsilon {
       font-size: 1.32353rem;
-      margin-bottom: -0.56986rem;
-      padding-top: 0.56986rem; } }
+      margin-bottom: -0.4706rem;
+      padding-top: 0.4706rem; } }
   @media screen and (min-width: 100em) {
     .typeset h5, .typeset .epsilon {
       font-size: 1.31579rem;
-      margin-bottom: -0.57238rem;
-      padding-top: 0.57238rem; } }
+      margin-bottom: -0.47369rem;
+      padding-top: 0.47369rem; } }
 .typeset h6, .typeset .zeta {
   line-height: 2rem;
   font-size: 1.33333rem;
-  margin-bottom: -0.56668rem;
-  padding-top: 0.56668rem; }
+  margin-bottom: -0.46668rem;
+  padding-top: 0.46668rem; }
   @media screen and (min-width: 40em) {
     .typeset h6, .typeset .zeta {
       font-size: 1.21429rem;
-      margin-bottom: -0.60537rem;
-      padding-top: 0.60537rem; } }
+      margin-bottom: -0.5143rem;
+      padding-top: 0.5143rem; } }
   @media screen and (min-width: 50em) {
     .typeset h6, .typeset .zeta {
       font-size: 1.2rem;
-      margin-bottom: -0.61001rem;
-      padding-top: 0.61001rem; } }
+      margin-bottom: -0.52001rem;
+      padding-top: 0.52001rem; } }
   @media screen and (min-width: 64em) {
     .typeset h6, .typeset .zeta {
       font-size: 1.17647rem;
-      margin-bottom: -0.61766rem;
-      padding-top: 0.61766rem; } }
+      margin-bottom: -0.52942rem;
+      padding-top: 0.52942rem; } }
   @media screen and (min-width: 100em) {
     .typeset h6, .typeset .zeta {
       font-size: 1.15789rem;
-      margin-bottom: -0.62369rem;
-      padding-top: 0.62369rem; } }
+      margin-bottom: -0.53685rem;
+      padding-top: 0.53685rem; } }
 .typeset ul, .typeset ol {
   line-height: 2rem;
   margin-bottom: 1.43999rem;
@@ -305,7 +307,7 @@ a {
 .typeset em, .typeset i, .typeset .italic {
   font-style: italic; }
 .typeset small, .typeset .caption, .typeset figcaption {
-  font-family: Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.06667rem; }
@@ -326,24 +328,24 @@ a {
 .typeset .caption {
   color: #BDC8CC;
   line-height: 2rem;
-  margin-bottom: 1.34666rem;
-  padding-top: 0.65334rem; }
+  margin-bottom: 1.42666rem;
+  padding-top: 0.57334rem; }
   @media screen and (min-width: 40em) {
     .typeset .caption {
-      margin-bottom: 1.3157rem;
-      padding-top: 0.6843rem; } }
+      margin-bottom: 1.38856rem;
+      padding-top: 0.61144rem; } }
   @media screen and (min-width: 50em) {
     .typeset .caption {
-      margin-bottom: 1.31199rem;
-      padding-top: 0.68801rem; } }
+      margin-bottom: 1.38399rem;
+      padding-top: 0.61601rem; } }
   @media screen and (min-width: 64em) {
     .typeset .caption {
-      margin-bottom: 1.28675rem;
-      padding-top: 0.71325rem; } }
+      margin-bottom: 1.35293rem;
+      padding-top: 0.64707rem; } }
   @media screen and (min-width: 100em) {
     .typeset .caption {
-      margin-bottom: 1.26683rem;
-      padding-top: 0.73317rem; } }
+      margin-bottom: 1.32841rem;
+      padding-top: 0.67159rem; } }
 .typeset h1 + .caption, .typeset .alpha + .caption, .typeset h2 + .caption, .typeset .beta + .caption, .typeset h3 + .caption, .typeset .gamma + .caption {
   margin-top: -1rem; }
 .typeset .delta + .caption, .typeset .epsilon + .caption, .typeset .zeta + .caption {
@@ -1342,7 +1344,7 @@ a.pswp__share--download:hover {
   .global-footer img {
     height: 3rem; }
   .global-footer p {
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 0;
@@ -1403,7 +1405,8 @@ header {
   border-bottom: 1px solid #BDC8CC;
   -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase; }
   header .nav {
     width: 50%;
     float: left; }
@@ -1432,7 +1435,8 @@ header {
             margin-right: 20px; } }
   header ul li {
     display: inline;
-    font-family: Helvetica, sans-serif; }
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem; }
 
 div#about {
   padding-bottom: 0; }
@@ -1613,7 +1617,7 @@ figcaption {
       text-align: right;
       width: 100%; } }
 .main-nav li {
-  font-family: Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.33333rem; }
@@ -1681,3 +1685,11 @@ figcaption {
   @media screen and (min-width: 40em) {
     .js .nav-toggle {
       display: none; } }
+
+body {
+  background-image: -webkit-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
+  background-image: -moz-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
+  background-image: -o-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
+  background-image: linear-gradient(to bottom, cyan 0, rgba(255, 255, 255, 0) 1px);
+  background-repeat: repeat-y;
+  background-size: 100% 1rem; }
