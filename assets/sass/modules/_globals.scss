@@ -192,3 +192,14 @@ figcaption {
   cursor: pointer;
   color: $linkColour;
 }
+
+// Fonts
+
+@font-face {
+  font-family: '../fonts/Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Regular.woff') format('woff'),
+       url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+       url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+}

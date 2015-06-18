@@ -1,6 +1,5 @@
 /* CSS compiled from SCSS */
 /* --------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -118,7 +117,7 @@ a {
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: #444;
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat-Regular, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase; }
@@ -307,7 +306,7 @@ a {
 .typeset em, .typeset i, .typeset .italic {
   font-style: italic; }
 .typeset small, .typeset .caption, .typeset figcaption {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat-Regular, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.06667rem; }
@@ -1344,7 +1343,7 @@ a.pswp__share--download:hover {
   .global-footer img {
     height: 3rem; }
   .global-footer p {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat-Regular, sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 0;
@@ -1435,7 +1434,7 @@ header {
             margin-right: 20px; } }
   header ul li {
     display: inline;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat-Regular, sans-serif;
     font-size: 1rem; }
 
 div#about {
@@ -1539,6 +1538,10 @@ figcaption {
   cursor: pointer;
   color: #ADA074; }
 
+@font-face {
+  font-family: '../fonts/Montserrat-Regular';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg"); }
 .global-header {
   background-color: #FCFCFC;
   font-size: 0; }
@@ -1617,7 +1620,7 @@ figcaption {
       text-align: right;
       width: 100%; } }
 .main-nav li {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat-Regular, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.33333rem; }
@@ -1685,11 +1688,3 @@ figcaption {
   @media screen and (min-width: 40em) {
     .js .nav-toggle {
       display: none; } }
-
-body {
-  background-image: -webkit-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: -moz-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: -o-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-image: linear-gradient(to bottom, cyan 0, rgba(255, 255, 255, 0) 1px);
-  background-repeat: repeat-y;
-  background-size: 100% 1rem; }
