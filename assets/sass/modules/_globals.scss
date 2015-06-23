@@ -36,6 +36,12 @@ img {
   }
 }
 
+.transparent {
+  filter: alpha(opacity=0.0001);
+  opacity: 0.0001;
+  font-size: 1px;
+}
+
 header {
   text-align: center;
   padding-top: 1rem;
