@@ -79,10 +79,10 @@ a {
   -ms-transition: color .1s, background-color .1s;
   -o-transition: color .1s, background-color .1s;
   transition: color .1s, background-color .1s;
-  color: #ada074;
+  color: #b3b251;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #766b45;
+    color: #6e6d30;
     text-decoration: none; }
 
 .typeset p {
@@ -350,7 +350,7 @@ a {
 .typeset .delta + .caption, .typeset .epsilon + .caption, .typeset .zeta + .caption {
   margin-top: 0rem; }
 .typeset blockquote p {
-  border-left: 0.15rem solid #ada074;
+  border-left: 0.15rem solid #b3b251;
   font-style: italic;
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
@@ -437,8 +437,8 @@ a {
   transition: all 0.2s ease; }
   .typeset input[type=submit]:hover,
   .typeset .button:hover {
-    background: #ada074;
-    border: 1px solid #ada074;
+    background: #b3b251;
+    border: 1px solid #b3b251;
     color: #FFFFFF; }
 .typeset input[type=submit] {
   height: 3rem;
@@ -1512,7 +1512,7 @@ video {
     color: #FFFFFF;
     border: 1px solid #FFFFFF; }
     #container .content .button:hover {
-      border: 1px solid #ada074; }
+      border: 1px solid #b3b251; }
 
 .my-gallery {
   margin: 0 auto;
@@ -1541,7 +1541,7 @@ video {
 
 figcaption {
   cursor: pointer;
-  color: #ada074; }
+  color: #b3b251; }
 
 @font-face {
   font-family: '../fonts/Montserrat-Regular';
@@ -1635,12 +1635,12 @@ figcaption {
     -ms-user-select: none;
     user-select: none;
     border-bottom: 0.1rem solid #d9d9d9;
-    color: #ada074;
+    color: #b3b251;
     cursor: pointer;
     display: block;
     padding: 10px 3%; }
     .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
-      background-color: #ada074;
+      background-color: #b3b251;
       color: #FFFFFF; }
   @media screen and (min-width: 40em) {
     .main-nav li {
@@ -1658,7 +1658,7 @@ figcaption {
         padding: 0; }
         .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
           background-color: transparent;
-          color: #ada074; } }
+          color: #b3b251; } }
   @media screen and (min-width: 50em) {
     .main-nav li {
       font-size: 0.8rem; } }
