@@ -79,10 +79,10 @@ a {
   -ms-transition: color .1s, background-color .1s;
   -o-transition: color .1s, background-color .1s;
   transition: color .1s, background-color .1s;
-  color: #b3b251;
+  color: #ada074;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #6e6d30;
+    color: #766b45;
     text-decoration: none; }
 
 .typeset p {
@@ -350,7 +350,7 @@ a {
 .typeset .delta + .caption, .typeset .epsilon + .caption, .typeset .zeta + .caption {
   margin-top: 0rem; }
 .typeset blockquote p {
-  border-left: 0.15rem solid #b3b251;
+  border-left: 0.15rem solid #ada074;
   font-style: italic;
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
@@ -437,8 +437,8 @@ a {
   transition: all 0.2s ease; }
   .typeset input[type=submit]:hover,
   .typeset .button:hover {
-    background: #b3b251;
-    border: 1px solid #b3b251;
+    background: #ada074;
+    border: 1px solid #ada074;
     color: #FFFFFF; }
 .typeset input[type=submit] {
   height: 3rem;
@@ -1415,12 +1415,11 @@ header {
     width: 50%;
     float: left; }
     header .nav.left {
-      text-align: center;
+      text-align: right;
       padding-right: 40px; }
       @media screen and (min-width: 40em) {
         header .nav.left {
-          padding-right: 60px;
-          text-align: right; } }
+          padding-right: 60px; } }
       header .nav.left ul li:first-child {
         margin-right: 10px; }
         @media screen and (min-width: 40em) {
@@ -1512,7 +1511,7 @@ video {
     color: #FFFFFF;
     border: 1px solid #FFFFFF; }
     #container .content .button:hover {
-      border: 1px solid #b3b251; }
+      border: 1px solid #ada074; }
 
 .my-gallery {
   margin: 0 auto;
@@ -1541,7 +1540,7 @@ video {
 
 figcaption {
   cursor: pointer;
-  color: #b3b251; }
+  color: #ada074; }
 
 @font-face {
   font-family: '../fonts/Montserrat-Regular';
@@ -1635,12 +1634,12 @@ figcaption {
     -ms-user-select: none;
     user-select: none;
     border-bottom: 0.1rem solid #d9d9d9;
-    color: #b3b251;
+    color: #ada074;
     cursor: pointer;
     display: block;
     padding: 10px 3%; }
     .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
-      background-color: #b3b251;
+      background-color: #ada074;
       color: #FFFFFF; }
   @media screen and (min-width: 40em) {
     .main-nav li {
@@ -1658,7 +1657,7 @@ figcaption {
         padding: 0; }
         .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
           background-color: transparent;
-          color: #b3b251; } }
+          color: #ada074; } }
   @media screen and (min-width: 50em) {
     .main-nav li {
       font-size: 0.8rem; } }

@@ -61,9 +61,9 @@ header {
     width: 50%;
     float: left;
       &.left {
-        text-align:center;
+        text-align:right;
         padding-right: 40px;
-        @include breakpoint(break-1) { padding-right:60px; text-align:right; }
+        @include breakpoint(break-1) { padding-right:60px; }
         & ul li:first-child { 
           margin-right:10px;
           @include breakpoint(break-1) { margin-right:20px; }
