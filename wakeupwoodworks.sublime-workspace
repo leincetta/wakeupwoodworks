@@ -1,0 +1,1123 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"site"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"panl",
+				"panel-gutters"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"cont",
+				"contact"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"Acqu",
+				"Acquaintance"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"par",
+				"partnership"
+			],
+			[
+				"Ca",
+				"Career"
+			],
+			[
+				"F",
+				"Friendship"
+			],
+			[
+				"Tea",
+				"Teacher-student"
+			],
+			[
+				"Par",
+				"Parent-child"
+			],
+			[
+				"Aff",
+				"Affair"
+			],
+			[
+				"Sen",
+				"Sensual"
+			],
+			[
+				"MA",
+				"Marriage"
+			],
+			[
+				"Im",
+				"important"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"Comp",
+				"Competition"
+			],
+			[
+				"Compe",
+				"Competition"
+			],
+			[
+				"Enter",
+				"Enterprising"
+			],
+			[
+				"Atten",
+				"Attention-seeking"
+			],
+			[
+				"Una",
+				"Unaware"
+			],
+			[
+				"Compla",
+				"Complacent"
+			],
+			[
+				"Frus",
+				"Frustrated"
+			],
+			[
+				"Depen",
+				"Dependable"
+			],
+			[
+				"Mar",
+				"Marriage"
+			],
+			[
+				"Close",
+				"Closed"
+			],
+			[
+				"Seriou",
+				"Serious"
+			],
+			[
+				"Rejec",
+				"Rejected"
+			],
+			[
+				"Roma",
+				"Romance"
+			],
+			[
+				"Bu",
+				"Business"
+			],
+			[
+				"Unfai",
+				"Unfaithful"
+			],
+			[
+				"work",
+				"Work"
+			],
+			[
+				"Viv",
+				"Vivacious"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-right",
+				"border-right-style"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"Self",
+				"Self-destructive"
+			],
+			[
+				"So",
+				"Social"
+			],
+			[
+				"Compl",
+				"Complaining"
+			],
+			[
+				"Stu",
+				"Stuck"
+			],
+			[
+				"Work",
+				"Work"
+			],
+			[
+				"Expe",
+				"Expectant"
+			],
+			[
+				"Comm",
+				"Committed"
+			],
+			[
+				"Fai",
+				"Faithful"
+			],
+			[
+				"Lov",
+				"Love"
+			],
+			[
+				"Mis",
+				"Mistrustful"
+			],
+			[
+				"COmm",
+				"Communicative"
+			],
+			[
+				"Under",
+				"Undermining"
+			],
+			[
+				"Disa",
+				"Disastrous"
+			],
+			[
+				"Fa",
+				"Family"
+			],
+			[
+				"Inte",
+				"Intellectual"
+			],
+			[
+				"Pro",
+				"Procrastinating"
+			],
+			[
+				"Ha",
+				"Harmonious"
+			],
+			[
+				"In",
+				"Intense"
+			],
+			[
+				"Fr",
+				"Friendship"
+			],
+			[
+				"Hard",
+				"Hardheaded"
+			],
+			[
+				"Stru",
+				"Struggling"
+			],
+			[
+				"Misun",
+				"Misunderstood"
+			],
+			[
+				"Inve",
+				"Inventive"
+			],
+			[
+				"Expl",
+				"Explosive"
+			],
+			[
+				"Gen",
+				"Gentle"
+			],
+			[
+				"Know",
+				"Know-it-all"
+			],
+			[
+				"Rej",
+				"Rejecting"
+			],
+			[
+				"Unco",
+				"Uncommunicative"
+			],
+			[
+				"Irres",
+				"Irresponsible"
+			],
+			[
+				"Dis",
+				"Disruptive"
+			],
+			[
+				"Inse",
+				"Insecure"
+			],
+			[
+				"Eas",
+				"Easygoing"
+			],
+			[
+				"Orga",
+				"Organizational"
+			],
+			[
+				"Spo",
+				"Spontaneous"
+			],
+			[
+				"An",
+				"Angry"
+			],
+			[
+				"Powe",
+				"Powerful"
+			],
+			[
+				"Com",
+				"Complacent"
+			],
+			[
+				"Non",
+				"Nonthreatening"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"Fru",
+				"Frustrated"
+			],
+			[
+				"Acc",
+				"Accepting"
+			],
+			[
+				"Ide",
+				"Ideological"
+			],
+			[
+				"Sup",
+				"Superficial"
+			],
+			[
+				"Per",
+				"Perceptive"
+			],
+			[
+				"Dep",
+				"Depressed"
+			],
+			[
+				"Fina",
+				"Financial"
+			],
+			[
+				"Lo",
+				"Love"
+			],
+			[
+				"Money",
+				"Money-savvy"
+			],
+			[
+				"Part",
+				"Partnership"
+			],
+			[
+				"Irre",
+				"Irresistible"
+			],
+			[
+				"Sta",
+				"Stagnating"
+			],
+			[
+				"Int",
+				"Intimate"
+			],
+			[
+				"Sensu",
+				"Sensuous"
+			],
+			[
+				"Disco",
+				"Discordant"
+			],
+			[
+				"Res",
+				"Restrictive"
+			],
+			[
+				"L",
+				"Love"
+			],
+			[
+				"Col",
+				"Cold"
+			],
+			[
+				"Pra",
+				"Practical"
+			],
+			[
+				"Uncom",
+				"Uncompromising"
+			],
+			[
+				"Ex",
+				"Expansive"
+			],
+			[
+				"Exp",
+				"Expressive"
+			],
+			[
+				"Ac",
+				"Acquaintanceship"
+			],
+			[
+				"Pow",
+				"Power-tripping"
+			],
+			[
+				"Fi",
+				"Fickle"
+			],
+			[
+				"At",
+				"Attentive"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"synt ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synta h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sy h",
+				"Set Syntax: HTML"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"set syntax: ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax: h",
+				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"be",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"",
+				"Beautify::Beautify File"
+			],
+			[
+				"mini",
+				"Minify::Minify File"
+			],
+			[
+				"string",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"strin",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"mak",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"lip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"int",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"em",
+				"Emmet: Rename Tag"
+			],
+			[
+				"emm",
+				"Emmet: Remove Tag"
+			],
+			[
+				"Emme",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lincetta/Sites/uis-styleguides/templates/index.liquid",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/index.html",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/.gitignore",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/base/_photoswipe.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/modules/_globals.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/contactthanks.php",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/mixture.json",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/style.scss",
+		"/Users/lincetta/Desktop/boiler.html",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/base/_variables.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/base/_typography.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/base/_mixins.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/sass/modules/_footer.scss",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/_landing 1.0/index.html",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/mail.php",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/README.md",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/js/smooth-scroll.min.js",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/assets/js/scripts.js",
+		"/Users/lincetta/Desktop/website text.txt",
+		"/Users/lincetta/Documents/htdocs/sassline/assets/sass/modules/_footer.scss",
+		"/Users/lincetta/Documents/htdocs/sassline/assets/css/style.css",
+		"/Users/lincetta/Documents/htdocs/sassline/assets/sass/style.scss",
+		"/Users/lincetta/Documents/htdocs/jekyll/_layouts/post.html",
+		"/Users/lincetta/Documents/htdocs/jekyll/index.html",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/61A87C02-321B-46C5-A185-72C213A0F0BA/global.css",
+		"/Users/lincetta/Documents/htdocs/Chart.js/samples/line.html",
+		"/Users/lincetta/Documents/htdocs/Chart.js/samples/pie.html",
+		"/Users/lincetta/Documents/htdocs/Chart.js/samples/doughnut.html",
+		"/Users/lincetta/Documents/htdocs/Chart.js/samples/doughnut.color.html",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/test.html",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/longmont/js/longmont.js",
+		"/Users/lincetta/Documents/htdocs/ep/modules/features/ep_bold_ideas/comment--node-bold-ideas.tpl.php",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/memphis/css/screen.css",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/strathcona/sass/screen.scss",
+		"/Users/lincetta/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/scss/app.scss",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/memphis/config.rb",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/memphis/memphis.module",
+		"/Users/lincetta/Documents/htdocs/ep/modules/custom/site_specific/memphis/sass/screen.scss",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/output.css",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/input.scss",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/test.scss",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/.gitignore",
+		"/Users/lincetta/Desktop/twentyfifteen/js/functions.js",
+		"/Users/lincetta/Desktop/twentyfifteen/archive.php",
+		"/Users/lincetta/Desktop/twentyfifteen/content-none.php",
+		"/Users/lincetta/Desktop/twentyfifteen/content-link.php",
+		"/Users/lincetta/Desktop/twentyfifteen/content-page.php",
+		"/Users/lincetta/Desktop/twentyfifteen/content-search.php",
+		"/Users/lincetta/Desktop/twentyfifteen/content.php",
+		"/Users/lincetta/Desktop/twentyfifteen/404.php",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/1A7AD577-308B-4433-8510-8AFF7D98AF50/customizer.php",
+		"/Users/lincetta/Desktop/BT-98/request-info.php",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/assets/css/custom.css",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/404.html",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/assets/img/teflonline.svg",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/assets/js/vendor/modernizr-2.6.2.min.js",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/modules/module.html",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/pages/page.html",
+		"/Users/lincetta/Documents/htdocs/teflonline_2015/README.md",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/header.php",
+		"/Users/lincetta/Documents/htdocs/fritzclauson/wp-content/themes/roots/assets/css/main.css",
+		"/Users/lincetta/Documents/htdocs/fritzclauson/wp-content/themes/wp-blueprint/content.php",
+		"/Users/lincetta/Documents/htdocs/fritzclauson/wp-content/themes/wp-blueprint/index.php",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/6C45EE51-3DE2-4331-B281-474597ADD9A1/footer.php",
+		"/Users/lincetta/Desktop/CAM/business-index.html",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/page.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/style.css",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/single-portfolio.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/sidebar.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/functions.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-includes/widgets.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/content-portfolio.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/templates/portfolio.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/functions/homepage-slider.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-content/themes/wpex-elegant/functions/featured-image.php",
+		"/Users/lincetta/Documents/htdocs/leandroincetta/wp-config.php",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/css/main.css",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/js/plugins.js",
+		"/Users/lincetta/Documents/htdocs/wakeupwoodworks/humans.txt",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/04E09364-FAB8-4DFD-84EC-300879C4A633/index.html",
+		"/Users/lincetta/Google Drive/!i/cv/links.html",
+		"/Users/lincetta/Google Drive/!i/cv/resume.html",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/0906C9D6-8BA5-4D32-AF99-C0C6D2F7E293/report.php",
+		"/Users/lincetta/Desktop/AST DATA/_backup/relationships copy.php",
+		"/Users/lincetta/Desktop/AST DATA/_backup/relationships.php",
+		"/Users/lincetta/Desktop/forms.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/pages/flight.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/css/component.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/pages/accomodation.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/pages/welcome.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/student-portal/pages/info.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/compare.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/dashboard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/_inc/menu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/user_trait.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/data/american.es.php",
+		"/Users/lincetta/Desktop/astraly.es/celtic.es.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/endorse.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/explore.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/sign.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/trait.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/css/component.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/_inc/footer.php",
+		"/Users/lincetta/Desktop/AST DATA/relationships.php",
+		"/Users/lincetta/Desktop/contact form/form.html",
+		"/Users/lincetta/Desktop/contact form/js/contact_me.js",
+		"/Users/lincetta/Downloads/PageTransitions/transitions.html",
+		"/Users/lincetta/Downloads/PageTransitions/index.html",
+		"/Users/lincetta/Downloads/ThumbnailGridExpandingPreview/index.html",
+		"/Users/lincetta/Downloads/ThumbnailGridExpandingPreview/css/component.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/_bootstrap101/_inc/_footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/_bootstrap101/_inc/_head.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/00 compare.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/comparison.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/_inc/invite.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/index.php",
+		"/Users/lincetta/Library/Caches/Cleanup At Startup/Transmit/10DE14A0-0DD2-4ED7-B790-9847C6E67095/sign.php",
+		"/Users/lincetta/Desktop/relationships.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/X.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/_inc/endorse.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/js/jquery.adaptive-backgrounds.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/sign_hub.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/trait_hub.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/astraly/user_hub.php",
+		"/private/var/folders/5j/2g6hx1px2k71b9vkq3_2k3jm0000gn/T/fz3temp-1/component.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/lincetta/Desktop/boksy-lite",
+			"/Users/lincetta/Documents/Projects/Fritz Clauson/html/wpex-elegant",
+			"",
+			"/Users/lincetta/Desktop/twentyfifteen",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			">",
+			"body",
+			".slider-wide-slider img",
+			"img",
+			"instagram",
+			"footer",
+			".tabledrag-processed tr td",
+			"scale",
+			"social",
+			"label",
+			"text-align",
+			"left",
+			"text-align",
+			"works",
+			"preloader",
+			".grid-email",
+			".block",
+			".logo-img",
+			"250px",
+			"block-system-main-menu",
+			"#block-system-main-menu",
+			"'QuicksandBold', Arial, sans-serif",
+			"\"QuicksandBold\",Arial,sans-serif",
+			"letter-spacing:6px;",
+			"item",
+			"font-fam",
+			"none",
+			"thumb_up",
+			"h2",
+			"thumb-up",
+			".rows",
+			"li",
+			"div",
+			"entry-date",
+			"proudly",
+			"under",
+			"home_portfolio_taxonomy",
+			"portfolio taxonomy",
+			"home portfolio taxonomy",
+			"span_1_of_4",
+			"more-lin",
+			"Continue reading",
+			"continue reading",
+			"continue",
+			"more-link",
+			"more",
+			"category:",
+			"accreditation",
+			"why choo",
+			"btn btn-default btn-sm btn-block",
+			"<li class=\"list-group-item list-group-item-success\">\n        <span class=\"h3\">Save 30%</span>\n    </li>",
+			"certificate",
+			"Carousel Product Cart Slider",
+			"text=One",
+			"text=Two",
+			"text=Three",
+			"text=Project",
+			"<a href=\"#\" class=\"btn btn-default btn-sm btn-block\">Compare and Select</a>",
+			"h3",
+			"page",
+			"id=\"container\"",
+			"#54d5a2",
+			"#31c68b",
+			"post-meta",
+			"sadasda",
+			"Adversarial",
+			"Parent-child",
+			"Teacher-student",
+			"Partnership",
+			"Acquaintanceship",
+			"Acquaintance",
+			"Sibling",
+			"Business",
+			"Friendship",
+			"Family",
+			"Marriage",
+			"Love",
+			"Work",
+			"Rivalry",
+			"Distant relative",
+			"Love affair",
+			"Career",
+			"Opponent",
+			"Acquaintanceship",
+			"Romance",
+			"Co-workers",
+			"Brother-sister",
+			"Companionship",
+			"Confrontational",
+			"Competition",
+			"Lovers",
+			"Partners",
+			"Option A",
+			"<input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Enter email\">",
+			"<h4>",
+			"<input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" >",
+			"Information",
+			"z-index",
+			"subline",
+			"Invite",
+			"Certify",
+			"Support",
+			"glyphicon-star",
+			"Endorse",
+			"glyphicon-heart",
+			"glyphicon-thumbs-up",
+			"glyphicon-comment",
+			"pull-right",
+			"navbar-de",
+			"$relationships",
+			"[1]",
+			"\n	$relationships['bind'][1][3] ['strenghts'][1] = 'x';\n	$relationships['bind'][1][3] ['strenghts'][2] = 'x';\n	$relationships['bind'][1][3] ['strenghts'][3] = 'x';\n\n	$relationships['bind'][1][3] ['weaknesses'][1] = 'x';\n	$relationships['bind'][1][3] ['weaknesses'][2] = 'x';\n	$relationships['bind'][1][3] ['weaknesses'][3] = 'x';\n	",
+			"652D90",
+			"home",
+			"payment",
+			"course detail",
+			"credit",
+			"btns",
+			"250x250",
+			"300x300",
+			"</h3>",
+			"<h3>",
+			"</h4>",
+			"<h4>",
+			"CAPRICORN",
+			"<script type=\"text/javascript\"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-10084439-5']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>",
+			"<script type=\"text/javascript\"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-10084439-4']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Helvetica,Arial,sans-serif",
+			"letter-spacing:2px;",
+			"#comments",
+			"article",
+			"li",
+			"TEST",
+			"btn btn-primary btn-sm btn-block",
+			"<li class=\"list-group-item list-group-item-success text-center\">\n        <span class=\"h3\">Save 30%</span>\n    </li>",
+			"text=X",
+			"X",
+			"<a href=\"http://www.teflonline.com/tefl-course-enroll.php\" class=\"btn btn-default btn-sm btn-block\">Compare and Select</a>",
+			"h4",
+			"class=\"container\"",
+			"#3d756c",
+			"Adversarios",
+			"Padre-hijo",
+			"Maestro-estudiante",
+			"Sociedad",
+			"Conocidos",
+			"Hermanos",
+			"Negocios",
+			"Amistad",
+			"Familia",
+			"Matrimonio",
+			"Amor",
+			"Trabajo",
+			"Adversarial",
+			"Acquaintance",
+			"Romance",
+			"Work",
+			"Adversarial",
+			"Acquaintance",
+			"Love",
+			"Work",
+			"Sibling",
+			"Friendship",
+			"Adversarial",
+			"Sexual",
+			"x",
+			"<input type=\"text\" class=\"form-control\" id=\"\">",
+			"<h4 class=\"page-header\">",
+			"<input type=\"text\" class=\"form-control\" id=\"\">",
+			"Endorse",
+			"Certify",
+			"glyphicon-thumbs-up",
+			"Support",
+			"glyphicon-star",
+			"glyphicon-heart",
+			"glyphicon-thumbs-up",
+			"pull-left",
+			"$rel",
+			"[41]",
+			"[40]",
+			"[39]",
+			"[38]",
+			"[37]",
+			"[36]",
+			"[35]",
+			"[34]",
+			"[33]",
+			"[32]",
+			"[31]",
+			"[30]",
+			"[29]",
+			"[28]",
+			"[27]",
+			"[26]",
+			"[25]",
+			"[24]",
+			"[23]",
+			"[22]",
+			"[21]",
+			"[20]",
+			"[19]",
+			"[18]",
+			"[17]",
+			"[16]",
+			"[15]",
+			"[14]",
+			"[13]",
+			"[12]",
+			"",
+			"7665ab",
+			"200x200",
+			"250x250",
+			"</h4>",
+			"<h4>",
+			"</h5>",
+			"<h5>",
+			"Capricorn",
+			"worst",
+			"best",
+			"</th>",
+			"<th>",
+			"medium-10 medium-centered large-8 large-centered columns",
+			"<a href=\"trait.php\">Courageous</a>",
+			"<a href=\"friend.php\">Michael Jackson</a>",
+			"<a href=\"trait.php\">Courageous</a>",
+			"<a href=\"friend.php\">Michael Jackson</a>",
+			"#402e5b",
+			"<h4>Courageous</h4>",
+			"+143 endorsements",
+			"post-item",
+			"avatar.jpg",
+			"#00C0F3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}
