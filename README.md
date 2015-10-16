@@ -15,6 +15,10 @@ Compiled with [Mixture](http://mixture.io/)
 <br>
 *Licensed under the MIT license. ([http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))*
 
+#### Optimization
+
+http://www.willpeavy.com/minifier/
+
 #### References
 
 Jakob Nielsen. [Top 10 Mistakes in Web Design](http://www.nngroup.com/articles/top-10-mistakes-web-design/)<br>
